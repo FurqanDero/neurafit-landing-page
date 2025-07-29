@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MFMD-Neurafit</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/76042c0624.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="logo">
+          <img
+            src="images/Minimalist Fitness Tech Logo with Energy Icon.png"
+          />Neurafit
+        </div>
+        <ul class="nav-links">
+          <li><a href="#features">Features</a></li>
+          <li><a href="#testimonials">Testimonials</a></li>
+          <li><a href="#pricing">Pricing</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <a href="#pricing" class="cta-button">Buy Now</a>
+        <div class="dark-toggle">
+          <label class="switch">
+            <input type="checkbox" id="modeToggle" />
+            <span class="slider"></span>
+          </label>
+        </div>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <div class="hero-content">
+        <h1>Neurafit</h1>
+        <p>Train Smarter, Live Better</p>
+        <a href="#pricing" class="cta-button">Get Started</a>
+      </div>
+    </section>
+
+    <section id="features" class="features">
+      <h2>Key Features</h2>
+      <div class="features-container">
+        <div class="feature">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-W_YsJbqQ18JDzjGn-WLXLMQv1yiEyC8rfA&s"
+            alt="Feature 1"
+          />
+          <h3>Real-Time Health Metrics</h3>
+          <p>
+            Track heart rate, steps, calories, sleep, and hydration with high
+            precision, 24/7.
+          </p>
+        </div>
+        <div class="feature">
+          <img
+            src="https://cdn.prod.website-files.com/5ecf8d4fd463368e57125560/5ecf8d4fd4633682fd125584_feature-1.png"
+            alt="Feature 2"
+          />
+          <h3>AI-Powered Workout Coach</h3>
+          <p>
+            Get customized workout plans and daily movement goals based on your
+            fitness level and history.
+          </p>
+        </div>
+        <div class="feature">
+          <img
+            src="https://m.media-amazon.com/images/I/5122Q-6JNSL._UF894,1000_QL80_.jpg"
+            alt="Feature 3"
+          />
+          <h3>Waterproof & Swim-Ready</h3>
+          <p>
+            Engineered with IP68 water resistance, perfect for workouts, rain,
+            or swimming.
+          </p>
+        </div>
+        <div class="feature">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdlj21vBmwfBvhPQTxZb4vtfYcoNx2lsPjXg&s"
+            alt="Feature 4"
+          />
+          <h3>7-Day Battery Life</h3>
+          <p>
+            Charge once and go all week with long-lasting battery optimized for
+            performance and comfort.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="testimonials" class="testimonials">
+      <h2>What Our Customers Say</h2>
+      <div class="testimonial-slider">
+        <div class="testimonial active">
+          <p>"Amazing product! It changed how I work. Highly recommend it."</p>
+          <h4>- John Doe</h4>
+        </div>
+        <div class="testimonial">
+          <p>
+            "The best investment I’ve made in years. Outstanding support team."
+          </p>
+          <h4>- Jane Smith</h4>
+        </div>
+        <div class="testimonial">
+          <p>"Simple, intuitive, and powerful. Exactly what I needed."</p>
+          <h4>- Mike Johnson</h4>
+        </div>
+      </div>
+    </section>
+
+    <section id="pricing" class="pricing">
+      <h2>Choose Your Plan</h2>
+      <div class="toggle-container">
+        <label>Monthly</label>
+        <input type="checkbox" id="togglePricing" />
+        <label>Yearly</label>
+      </div>
+      <div class="pricing-cards">
+        <div class="card">
+          <h3>Basic</h3>
+          <p class="price" data-monthly="$10/mo" data-yearly="$100/yr">
+            $10/mo
+          </p>
+          <ul>
+            <li>1 User</li>
+            <li>Basic Support</li>
+            <li>10GB Storage</li>
+          </ul>
+          <button>Choose Plan</button>
+        </div>
+        <div class="card">
+          <h3>Pro</h3>
+          <p class="price" data-monthly="$20/mo" data-yearly="$200/yr">
+            $20/mo
+          </p>
+          <ul>
+            <li>5 Users</li>
+            <li>Priority Support</li>
+            <li>100GB Storage</li>
+          </ul>
+          <button>Choose Plan</button>
+        </div>
+        <div class="card">
+          <h3>Enterprise</h3>
+          <p class="price" data-monthly="$50/mo" data-yearly="$500/yr">
+            $50/mo
+          </p>
+          <ul>
+            <li>Unlimited Users</li>
+            <li>24/7 Support</li>
+            <li>1TB Storage</li>
+          </ul>
+          <button>Choose Plan</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <h2>Contact Us</h2>
+      <form id="contactForm">
+        <input type="text" id="name" placeholder="Name" required />
+        <input type="email" id="email" placeholder="Email" required />
+        <textarea
+          id="message"
+          placeholder="Your message..."
+          required
+        ></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+
+    <footer>
+      <div class="footer-links">
+        <a href="#">Facebook</a>
+        <a href="#">Twitter</a>
+        <a href="#">Instagram</a>
+      </div>
+      <p>&copy; 2025 Neurafit Product. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
